@@ -1,0 +1,27 @@
+# Changelog
+
+## 1.1.0
+### Added 
+- HatchImage now has a path( $size ) method to grab path to image on disk
+
+## 1.0.0
+### Changed
+- Callbacks for add_context, add_gform_context and add_acf_context must now always be functions - not strings or other values
+- Added check to ensure Timber is installed (now required) 
+
+## 0.5.5
+### Added 
+- Start keeping changelog 
+- register_transformer_for_main() function to transform main context
+
+## 0.6.0
+### Added
+- Hatch::add_context( $key, $callback ) now passes the current post into the callback function as context
+
+## 0.6.1
+### Changed
+- Cache improvements
+
+## 0.6.2
+### Changed
+- Add alt tag to HatchImage
